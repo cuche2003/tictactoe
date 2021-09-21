@@ -1,0 +1,34 @@
+#board-ctn {
+    background: linear-gradient(to top right, #6b4984,#483475, #2b2f77, #141852, #070b34);
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    padding: 30px;
+    border-radius: 20px;
+    gap: 30px;
+}
+
+.tile {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 7.5em;
+    border-radius: 10px;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.tile:hover {
+    cursor: pointer;
+    transform: scale(102%, 102%);
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+.tile:active {
+    transform: scale(95%, 95%);
+}

@@ -1,2 +1,2 @@
-# tictactoe
-A simple tic-tac-toe game. 
+# Tic-tac-toe
+A simple tic-tac-toe to play locally with a friend or cpu.
